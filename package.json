@@ -1,0 +1,29 @@
+{
+  "name": "coronabackend",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "actions-on-google": "^2.12.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dialogflow": "^1.2.0",
+    "dialogflow-fulfillment": "^0.6.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "http-errors": "^1.7.3",
+    "jade": "^1.11.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.2",
+    "pino": "^5.17.0",
+    "pino-http": "^4.4.0",
+    "pino-pretty": "^3.6.1"
+  }
+}
