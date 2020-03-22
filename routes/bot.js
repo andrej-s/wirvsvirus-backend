@@ -3,7 +3,7 @@ const router = express.Router();
 const cors = require('cors');
 const {WebhookClient} = require('dialogflow-fulfillment');
 const dialogflow = require('dialogflow');
-const Manager = require('./../corona/sessionManager');
+const Manager = require('../corona/sessionManager');
 
 const languageCode = 'de'
 const projectId = process.env.DIALOGFLOW_PROJECT_ID;
