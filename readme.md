@@ -25,7 +25,7 @@ npm install
 ```
 
 ## Config
-This server currently runs on port 4000 by default. To change this, modify file `/bin/www`.
+This server currently runs on port 4000 by default. To change this, modify file `/bin/www`. An `.env` file must be provided, an example can be found in `.env.example`.
 
 ## Missing features
 Most importantly, authentification for the backend server is currently missing. Additionally, data is only kept in memory without the use of an additional database.

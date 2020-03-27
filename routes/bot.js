@@ -93,7 +93,7 @@ router.post('/fulfillment', cors(), function(req, res, next) {
 });
 
 router.get('/session/:identifier', cors(), function(req, res, next) {
-  res.end(JSON.stringify({answers : sessionManager.getSession([`projects/coronahackathon-dqwony/agent/sessions/${req.params.identifier}`]).answers}));
+  res.end(JSON.stringify({answers : sessionManager.getSession([`projects/${process.env.DIALOGFLOW_PROJECT_ID}/agent/sessions/${req.params.identifier}`]).answers}));
 });
 
 module.exports = router;
